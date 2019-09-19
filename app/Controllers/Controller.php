@@ -7,7 +7,7 @@ use Mustache_Engine;
 
 class Controller
 {
-    protected function view(string $viewFile, array $data = [])
+    protected static function view(string $viewFile, array $data = [])
     {
         $templateFile = __DIR__."/../../views/".$viewFile.".tpl";
         if (!file_exists($templateFile)) {
