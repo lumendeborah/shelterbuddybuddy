@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-class HomeController
+class HomeController extends Controller
 {
     public static function index()
     {
-        return "hi";
+        return self::view("index");
     }
 }
