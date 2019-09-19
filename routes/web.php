@@ -15,3 +15,6 @@ Route::get('/', function () {
     //return view('welcome');
     return view('form');
 });
+
+
+Route::get("/download", "DownloadController@download");
