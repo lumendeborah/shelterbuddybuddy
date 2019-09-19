@@ -5,3 +5,4 @@ public/app.js
 
 # IDE cruft
 .vscode/
+.idea
