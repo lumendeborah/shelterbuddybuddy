@@ -6,3 +6,4 @@ public/app.js
 # IDE cruft
 .vscode/
 .idea
+.DS_Store
