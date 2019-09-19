@@ -3,6 +3,10 @@ Helper tools to generate custom reports created from exports from Shelter Buddy
 
 Project Information here: https://bit.ly/2lZpIcN
 
+# As with most awesome modern PHP stuff, you'll need to get the dependencies with composer
+
+From the project root, run `composer install`
+
 # For now, let's just serve this locally with this command
 
 `php -S localhost:8000`
