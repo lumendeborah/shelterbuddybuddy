@@ -15,6 +15,8 @@ class Controller
         }
 
         $m = new Mustache_Engine();
-        return $m->render(file_get_contents($templateFile), $data);
+        // this will render the individual view file
+        $viewData = $m->render(file_get_contents($templateFile), $data);
+        return $m->render(file_get_contents(__DIR__."/../../views/layout.tpl"), ["content" => $viewData]);
     }
 }
