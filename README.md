@@ -23,22 +23,24 @@ To have the system watch your source files, and rebuild on the fly, run `npm run
 ### PhpSpreadsheet requirements
 
 PHP extensions. These are usually installed by running `apt-get install <mod-name>` or `brew install`:
-    * [ ] ext-ctype: *
-    * [ ] ext-dom: *
-    * [ ] ext-gd: *
-    * [ ] ext-iconv: *
-    * [ ] ext-fileinfo: *
-    * [ ] ext-libxml: *
-    * [ ] ext-mbstring: *
-    * [ ] ext-simplexml: *
-    * [ ] ext-xml: *
-    * [ ] ext-xmlreader: *
-    * [ ] ext-xmlwriter: *
-    * [ ] ext-zip: *
-    * [ ] ext-zlib: *
+
+ * [ ] ext-ctype: *
+ * [ ] ext-dom: *
+ * [ ] ext-gd: *
+ * [ ] ext-iconv: *
+ * [ ] ext-fileinfo: *
+ * [ ] ext-libxml: *
+ * [ ] ext-mbstring: *
+ * [ ] ext-simplexml: *
+ * [ ] ext-xml: *
+ * [ ] ext-xmlreader: *
+ * [ ] ext-xmlwriter: *
+ * [ ] ext-zip: *
+ * [ ] ext-zlib: *
  
  Requirements that should be handled by composer/having PHP installed:
-    * [x] php: ^7.1
-    * [x] psr/simple-cache: ^1.0 
-    * [x] markbaker/complex: ^1.4
-    * [x] markbaker/matrix: ^1.1
+ 
+ * [x] php: ^7.1
+ * [x] psr/simple-cache: ^1.0 
+ * [x] markbaker/complex: ^1.4
+ * [x] markbaker/matrix: ^1.1
