@@ -2,6 +2,8 @@
 
 namespace App;
 
+use App\Controllers\HomeController;
+
 class App
 {
     public function __construct()
@@ -18,7 +20,15 @@ class App
      */
     public function run(string $route)
     {
-        return "wat up my homies! Requested route: ".$route;
+        $routes = [
+            "/" => HomeController::index()
+        ];
+
+        if (!array_key_exists($route, $routes)) {
+            return "404";
+        }
+
+        return $routes[$route];
     }
 
     /**
