@@ -1,1 +1,7 @@
 vendor/
+node_modules/
+public/app.css
+public/app.js
+
+# IDE cruft
+.vscode/
