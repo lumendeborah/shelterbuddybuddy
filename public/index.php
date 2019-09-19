@@ -6,4 +6,4 @@ use App\App;
 
 $app = new App();
 
-echo $app->run();
+echo $app->run($_SERVER["REQUEST_URI"]);
